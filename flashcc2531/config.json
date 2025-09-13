@@ -11,6 +11,7 @@
   "map": ["backup:rw"],
   "devices": ["/dev/mem:rw", "/dev/gpiomem:rw"],
   "privileged": ["SYS_RAWIO"],
+  "init": false,
   "gpio": "true",
   "apparmor": "true",
   "ports": {
